@@ -3,7 +3,7 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-def generate_trader_data(num_traders=20):
+def generate_trader_data(num_traders=3):
     np.random.seed(42)
     trader_data = []
     
